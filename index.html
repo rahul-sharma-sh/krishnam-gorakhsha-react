@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link href="/new-assets/css/newstyle.min.css" rel="stylesheet" />
+    <link href="/new-assets/css/fontAwesome6Pro.css" rel="stylesheet" />
+    <link href="/assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/new-assets/vendors/iti/css/intlTelInput.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <script type="text/javascript">
+      function downloadJSAtOnload() {
+          var element = document.createElement("script");
+          element.src = "/new-assets/js/deferscripts.js";
+          document.body.appendChild(element);
+      }
+      if (window.addEventListener)
+          window.addEventListener("load", downloadJSAtOnload, false);
+      else if (window.attachEvent)
+          window.attachEvent("onload", downloadJSAtOnload);
+      else window.onload = downloadJSAtOnload;
+  </script>
+  
+<style>
+  .loader-box{
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0, .4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+</style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/donation_page/js/newCampaign/lazysizes.min.js"></script>
+<script type="text/javascript" src="/new-assets/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="/assets/js/validate-form.js"></script>
+<script type="text/javascript" src="/assets/vendors/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<script type="text/javascript" src="/new-assets/vendors/iti/js/intlTelInput.min.js"></script>
+<script type="text/javascript" src="/assets/js/myscript.js"></script>
+<script type="text/javascript" src="../translate.google.com/translate_a/elementa0d8.js?cb=googleTranslateElementInit">
+</script>
+  </body>
+</html>
